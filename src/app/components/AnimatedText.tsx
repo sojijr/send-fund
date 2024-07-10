@@ -82,15 +82,16 @@ const AnimatedText = () => {
         onSent={handleSent}
       />
 
-      <p className="absolute bottom-4">
-        with ❤️ and sapa. {""}
-        <a
-          href="https://github.com/dtechoracle/send-funds"
-          className="text-blue-300"
-        >
-          Repo
-        </a>
-      </p>
+  <p className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center">
+    with ❤️ and sapa. Shamelessly forked from dtechoracle. {""}
+    <a
+    href="https://github.com/dtechoracle/send-funds"
+    className="text-blue-300"
+  >
+    Repo
+    </a>
+  </p>
+
     </div>
   );
 };
